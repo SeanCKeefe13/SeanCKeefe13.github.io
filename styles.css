@@ -105,10 +105,14 @@
     .crappo-display{
         width: 15rem;
         height: 15rem;
+        background-image: url('crappo.png');
+        background-size: cover;
+        background-position: center;
     }
     .calculator-display{
         width: 15rem;
         height: 15rem;
+
     }
     .left{
         margin-right: 3rem;
