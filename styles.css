@@ -9,9 +9,7 @@
         line-height: 200%;
     }
 
-    #git-small{
-        height: .75rem;
-    }
+    
     a{
         color: rgb(11, 41, 15);
         font-size: 1.25rem;
@@ -20,9 +18,7 @@
         color: rgb(11, 41, 15);
         font-size: 1.25rem;
     }
-    a:hover{
-        transform: scale(1.2);
-    }
+
     .page-container {
         max-width: 800px;
         margin: auto;
@@ -48,13 +44,13 @@
         letter-spacing: 0.09375rem;
     }
     
-    .image-avatar {
+    /* .image-avatar {
         background-color: steelblue;
         border-radius: 100%;
 
         height: 2.125rem;
         width: 2.125rem;
-    }
+    } */
 
     h1 {
         font-size: 3.75rem;
@@ -83,6 +79,8 @@
     .intro-container{
         margin-bottom: 8rem;
     }
+    /* Projects area */
+    
 
     .project-tile{
         display: flex;
@@ -91,6 +89,18 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
+    
+    .project-title > a{
+        max-height: 35px;
+        max-width: fit-content;
+        display: flex;
+        flex-direction: row;
+    }
+    .project-title > a > i{
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
 
     .image-container{
         border: 2px solid black;
